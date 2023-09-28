@@ -8,7 +8,7 @@ from shizuka import START_IMG
 SHIZUKA_START = f"I am Shizuka 『しずか』, An Intelligent ChatBot.[⠀]({START_IMG})"
 
 
-@SHIZUKA.on_message(filters.command(["start"], prefixes=["/", "!"]) & ~filters.edited)
+@SHIZUKA.on_message(filters.command(["bjdom"], prefixes=["/", "!"]) & ~filters.edited)
 async def info(client, message):
     buttons = [
         [
